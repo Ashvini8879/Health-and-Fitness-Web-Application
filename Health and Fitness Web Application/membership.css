@@ -1,0 +1,126 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: black;
+}
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.video-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.headline {
+  font-size: 4em;
+  color: yellow;
+}
+
+.description {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+.explore-btn {
+  padding: 15px 30px;
+  font-size: 1.5em;
+  background-color: #FF0000;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 10px;
+}
+
+.explore-btn:hover {
+  background-color: #e60000;
+}
+
+.scroll-arrow {
+  display: block;
+  font-size: 2em;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.explore-buttons {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.986);
+  z-index: 1000;
+}
+
+.explore-buttons .container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.box {
+  width: 230px;
+  height: 260px;
+  padding: 2px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  background-color: #1a1a1c;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #787373;
+}
+
+.box h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.box h3 {
+  font-size: 2em;
+  margin-bottom: 5px;
+  color: yellow;
+}
+
+.box p {
+  font-size: 1.1em;
+  line-height: 1.5;
+  color: white;
+}

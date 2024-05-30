@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mindfulness Library</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<style>
+  /* Reset default margin and padding */
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+
+  .box {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
+  }
+
+  .box:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+  }
+
+  .box img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .box-content {
+    text-align: left;
+  }
+
+  .box h2 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+
+  .box p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+
+  .hh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .hh button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .hh button:hover {
+    background-color: #222;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+  }
+</style>
+</head>
+
+<body>
+  <div class="hh">
+    <a href="index.html"><button>Mindfulness</button></a>
+  </div>
+
+  <div class="container">
+    <div class="box" onclick="window.location.href='video.html'">
+      <img src="images/med.png" alt="5 Minute Meditation">
+      <div class="box-content">
+        <h2>5 Minute Meditations</h2>
+        <p>Panic? Anxiety? We have you all covered with these short 5 minute meditations. Dive in!</p>
+      </div>
+    </div>
+
+    <div class="box" onclick="window.location.href='video5.html'">
+      <img src="images/asan.png" alt="10 Minute Meditation">
+      <div class="box-content">
+        <h2>Yoga Asanas</h2>
+        <p>Browse our extensive yoga asana library, with a vast collection of postures and their benefits.</p>
+      </div>
+    </div>
+
+    <div class="box" onclick="window.location.href='video1.html'">
+      <img src="images/pranayama.png" alt="10 Minute Meditation">
+      <div class="box-content">
+        <h2>Yoga Pranayama</h2>
+        <p>Discover breath practices to impact your well-being in our Pranayama series.</p>
+      </div>
+    </div>
+
+    <div class="box" onclick="window.location.href='video2.html'">
+      <img src="images/sleep.png" alt="10 Minute Meditation">
+      <div class="box-content">
+        <h2>Sleep Stories</h2>
+        <p>Relax and drift into peaceful sleep with our collection of soothing sleep stories.</p>
+      </div>
+    </div>
+
+    <div class="box" onclick="window.location.href='video3.html'">
+      <img src="images/stressre.png" alt="10 Minute Meditation">
+      <div class="box-content">
+        <h2>Stress Reduction Meditation</h2>
+        <p>Manage stressful thoughts and feel more relaxed with our stress reduction series.</p>
+      </div>
+    </div>
+
+    <div class="box" onclick="window.location.href='video4.html'">
+      <img src="images/running.png" alt="10 Minute Meditation">
+      <div class="box-content">
+        <h2>Running Program</h2>
+        <p>Start your running journey with our beginner-friendly walk/run method.</p>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+  
+  <footer>
+    &copy; 2024 Mindfulness Library. All Rights Reserved.
+  </footer>
+</body>
+</html>

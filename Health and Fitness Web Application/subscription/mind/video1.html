@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mindfulness Library</title>
+<style>
+  h4{
+    margin-left: 7%;
+  margin-right: 7%;
+  font-size: 15px;
+  }
+  .edition-container {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 0%;
+  margin-right: 0%;
+  background-color:  #0a1024;
+  color: darkgray;
+}
+.edition {
+  flex: 0 0 48%; /* Adjust the width of each section */
+}
+.edition p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  margin-left: 7%;
+  margin-right: 7%;
+  
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fffffff0; /* Light grey background color */
+  }
+  .container {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+  .headline {
+    font-size: 35px;
+  }
+  .box {
+    display: inline-block;
+    width: 46%;
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    vertical-align: top;
+    box-sizing: border-box;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow */
+    transition: box-shadow 0.3s ease; /* Smooth transition */
+  }
+  .box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Box shadow on hover */
+  }
+  .box img {
+    width: 160px;
+    height: 100px;
+    display: block;
+    float: left;
+    margin-right: 10px;
+  }
+  .box-content {
+    overflow: hidden;
+  }
+  .box h2,
+  .box p {
+    margin: 0;
+  }
+  p{
+    color: gray;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .head{
+    font-size: 16px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+  }
+
+  @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+  * {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    -webkit-transition: all .2s linear;
+    transition: all .2s linear;
+  }
+  html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+  }
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 9%;
+    z-index: 10000;
+    background: #000;
+  }
+  .header .logo {
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+  }
+  .header .logo span {
+    color: rgb(255, 255, 255);
+  }
+  .header .navbar a {
+    display: inline-block;
+    padding: 1.5rem 2rem;
+    margin-left: 0px;
+    font-size: 1.7rem;
+    color: #9e9696;
+  }
+  .header .navbar a:hover {
+    color: white;
+  }
+  .hh {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .hh button {
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+
+  .hh button:hover {
+    background-color: #222;
+  }
+
+</style>
+</head>
+<body>
+  <br>
+  <div class="hh">
+    <a href="index.html"><button>Mindfulness</button></a>
+  </div>
+
+<div class="container">
+  <h1 class="headline">
+    <br>Yoga-Pranayama</h1><br>
+    <p>This Pranayama series contains breath practices which have the potential to effect the gross body.</p>
+  <div class="box" onclick="window.location.href='pra1.html'">
+    <img src="images/p1.png" alt="5 Minute Meditation">
+    <div class="box-content">
+          <div class="head">Pranayama Series-1</div>
+           1 session<br><br><p>Get started with basic of Pranayama
+          </p>
+    </div>
+  </div>
+  <div class="box" onclick="window.location.href='pra2.html'">
+    <img src="images/p2.png" alt="5 Minute Meditation">
+    <div class="box-content">
+          <div class="head">Pranayama Series-2</div>
+           1 session<br><br><p>Experience deeper breath practices
+          </p>
+    </div>
+  </div>
+  
+  <div class="box" onclick="window.location.href='pra3.html'">
+    <img src="images/stress.png" alt="5 Minute Meditation">
+    <div class="box-content">
+          <div class="head">Pranayama Series-3</div>
+           1 session<br> <br><p>Advance Pranayama practices
+          </p>
+    </div>
+  </div>
+  <div class="box" onclick="window.location.href='pra4.html'">
+    <img src="images/p3.png" alt="5 Minute Meditation">
+    <div class="box-content">
+          <div class="head">Pranayama Series-4</div>
+           1 session<br> <br><p>Pranayama refinement and practices
+          </p>
+    </div>
+  </div>
+
+
+</div>
+
+
+</div>
+<br><br>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+<div class="edition-container">
+<div class="edition">
+  <br><br><br>
+  <h4>What is Pranayam and its Benefits?</h4><br>
+  <p>Pranayam yoga is a science of breathing or "control of breath". For those who have no idea of what is Pranayam and how it works. In short, it is a breathing exercise that deals with various types of breath control. It can also be called yoga for relaxation of the mind, body, and soul. In Sanskrit, the word "Prana" means "breath", and "yama" means "control". Pranayam yoga enhances the pranic energy, which is one of the main factors of life force and mental stability. Pranayam has numerous benefits that help the healthy functioning of the human body.</p>
+  
+  <p> Yoga pranayam also balances and maintains the equation of the body, mind and soul, thus leading to a stress-free and relaxed state of mind. Once you set goals to regulate proper breathing, it helps you set things right internally. All your organs will begin to function actively and effectively once you practice pranayam yoga. One can also resolve minor respiratory issues and lung-related problems like asthma, wheezing, etc., by practicing Pranayam. Regular yoga and Pranayam can also help reduce hypertension, heart troubles, digestive disorders, anxiety, depression, etc. Pranayam yoga is an overall benefit to the entire functioning of the human body. The process of Pranayam is considered one of the most ancient disciplines in attaining peace of mind.</p>
+  <h4>How Effectively Can We Do Pranayam at Home?</h4><br>
+   <p>Performing pranayama at home does not require any special equipment and the only thing is that the spine has to be maintained tall. Hence it can be done effectively at home every day with ease. How to do pranayama at home? One has to take a steady breath through both the nostrils and such that the deep inhalation reaches the lungs to its maximum capacity. Then by holding the breath for a second and constricting some of it at the back of the throat, it should be exhaled gently like a whisper through both nostrils slowly. By doing this at home on a regular basis, you can reduce stress, relax the mind, and release anger.
+  </p> 
+  <h4>Who Can Do Pranayam?</h4><br>
+   <p>All age groups can do pranayam, just like yoga for senior citizens , yoga for relaxation, and yoga for sleep. It is a simple breathing technique that is incorporated in various yogas and even in surya namaskar. Kids can easily learn it as they are easy to understand and do not require more time to practice. Any kid above eight years is suitable to practice pranayam under all circumstances, and there is no max age limit to learn it.
+  </p><h4>Who Should Avoid Pranayam?</h4><br>
+   <p> Pranayam is very beneficial for human health in various ways, but some populations of people should avoid it for their safety. They are: · People with a heart failure · People with breathing difficulties who cannot take up minimal exertion.
+  </p>
+ </div>
+
+<div class="edition">
+  <br><br><br>
+  <h4>Benefits of Doing Pranayam Workouts</h4><br>
+  <p>The benefits of pranayam, according to scientific studies, are extensively researched and provide good health in various ways. · It decreases stress in all populations and ages as it calms the nervous system and improves the stress response. · It decreases anxiety levels. · It is the most effective pranayama that increases oxygen uptake by the vital organs and the brain and nerves. · It improves sleep quality and is of great help to people with sleep apnea. · It slows down the breathing and heart rate within a short duration of five minutes. · It helps to calm the body tremendously. · It decreases snoring, and daytime sleepy feels. · It increases mindfulness as we tend to become aware of our breathing. Eventually, this helps to improve focus and concentration. · It helps with the emotional regulation in the system. · Pranayam removes the carbon dioxide and increases oxygen concentration in the body, which fuels the brain cells. · It is the most effective pranayama that reduces high blood pressure and hypertension and promotes relaxation. · It decreases the risk of both stroke and heart disease. · It improves lung function as slow and forceful breathing strengthens the lungs. · It helps to treat conditions like asthma, allergic bronchitis, pneumonia, and tuberculosis. · It enhances cognitive performance and improves brain functionality. · It improves the memory power and also reasoning skills of a person. · It is seen to increase sensory-motor performance and also auditory memory. · It helps to reduce cigarette cravings and quit the habit of smoking.</p>
+  <h4>Disadvantages of Doing Pranayam Workouts</h4><br>
+  <p>When pranayama is not done correctly, it may result in few side effects like: · Dizziness · Headache · Vomiting sensation · Lethargy · Feeling giddy and having a weird sensation · Lassitude · Instable thoughts · Discomfort and uneasiness · Easily excitable mind · Indigestion · Constipation or diarrhea · Depression · Asthma worsens · Dryness in mouth · Restlessness · Psychological imbalance · Phobia or internal fear · Excess salivation · Perspiration · Blood pressure and sugar level increases · Immunity decreases · Stress level increases · Bach ache · Blurry vision · Body pain</p>
+
+  <h4>What is the sequence of pranayam?</h4><br>
+  <p>What is pranayam sequence? A process of pranayam must be done in this sequence. · First, set an intention. · Focus on the warming · Connect and do deep breathing · Calm and relax · Surrender · Chant with deep inner silence To be more specific and state them with technical terms and types of pranayam. · Kapalabhati pranayam – This warms the body with asana practice. · Dirga Pranayam – Develops awareness of body, breath, and mind with connections. · Nadi Shodana – Deep breathing is done in a controlled and regularized way, and this clears the passages. · Bhramari Pranayam – Calms both the body and mind. · Savasana – Relaxes and surrenders the body. · Chant Om and connect to inner silence.</p>
+ 
+  
+</div>
+</div>
+
+</body>
+</html>

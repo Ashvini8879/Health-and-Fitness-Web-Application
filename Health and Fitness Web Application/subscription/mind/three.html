@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Yoga Sessions</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    /* Existing Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      margin-top: 30px;
+      margin-left: 140px;
+    }
+
+    .container {
+      display: flex;
+      align-items: flex-start; /* Change to align items to flex-start */
+      margin-top: 10px;
+    }
+
+    .asana-image img {
+      width: 600px;
+      height: 500px;
+      display: block;
+      margin-right: 60px;
+    }
+
+    .asana-details {
+      width: 50%;
+    }
+
+    .asana-details h1 {
+      font-size: 25px;
+      color: #333;
+    }
+
+    .asana-details p {
+      color: #777;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .session-list {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .session {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+      cursor: pointer;
+    }
+
+    .session img {
+      width: 130px;
+      height: 140px;
+      margin-right: 10px;
+    }
+
+    .session p {
+      color: #333;
+      font-size: 16px;
+    }
+
+    /* New Styles */
+    @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap");
+
+    /* General Styles */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      text-decoration: none;
+      outline: none;
+      border: none;
+      text-transform: capitalize;
+      transition: all .2s linear;
+    }
+
+    html {
+      font-size: 62.5%;
+      scroll-behavior: smooth;
+      overflow-x: hidden;
+    }
+
+    /* Header Styles */
+    .header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 9%;
+      z-index: 10000;
+      background: #000;
+    }
+
+    .header .logo {
+      font-weight: bolder;
+      color: #fff;
+      font-size: 3rem;
+    }
+
+    .header .logo span {
+      color: #fff;
+    }
+
+    .header .navbar a {
+      display: inline-block;
+      padding: 1.5rem 2rem;
+      margin-left: 0px;
+      font-size: 1.7rem;
+      color: #9e9696;
+      transition: color 0.3s ease;
+    }
+
+    .header .navbar a:hover {
+      color: #fff;
+    }
+
+    /* Additional Styles */
+    .container {
+      padding: 40px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .asana-details hr {
+      border: 0;
+      height: 1px;
+      background-color: #ccc;
+      margin: 20px 0;
+    }
+
+    .session-list .box {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease;
+    }
+
+    .session-list .box:hover {
+      transform: translateY(-5px);
+    }
+
+    .session-list .box img {
+      border-radius: 4px;
+    }
+
+    .session-list .box p {
+      margin: 10px 0 0;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+ 
+  <div class="container">
+    <!-- Left side: Image of Asana -->
+    <div class="asana-image">
+      <img src="images/seate.png" alt="Yoga Asana Image">
+    </div>
+
+    <!-- Right side: Headlines and Session Pack -->
+    <div class="asana-details">
+      <h1>Seated Postures</h1><br>
+      <p>3 Sessions</p>
+      <hr>
+      <!-- Headline for Sessions in Pack -->
+      <h2>Sessions in this pack</h2><br>
+      <!-- List of 10 sessions with images and text -->
+      <div class="session-list">
+        <div class="box" onclick="window.location.href='vidd1.html'">
+          <div class="session">
+            <img src="images/Ardha Matsyendrasana.png" alt="Session 1">
+            <p>Ardha Matsyendrasana</p>
+          </div>
+        </div>
+        <div class="box" onclick="window.location.href='vidd2.html'">
+          <div class="session">
+            <img src="images/Purvottanasana.png" alt="Session 2">
+            <p>Purvottanasana</p>
+          </div>
+        </div>
+        <div class="box" onclick="window.location.href='vidd3.html'">
+          <div class="session">
+            <img src="images/Uttana Prishtasana.png" alt="Session 3">
+            <p>Uttana Prishtasana</p>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+  </div>
+</body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Black Background with Centered Headline and Videos</title>
+  <style>
+    body {
+      background-color: black;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+    #classes {
+      text-align: center;
+      font-size: 32px;
+      text-decoration: underline;
+      text-decoration-color: blue;
+      text-underline-position: under;
+      padding-bottom: 19px; 
+      margin-top: -170px;
+    }
+    #classDropdown {
+      color: black;
+      background-color: white;
+      padding: 10px;
+      border: none;
+      font-size: 16px;
+      margin-left: 600px;
+      width: 160px;
+    }
+    .class-item {
+      color: blue;
+      text-decoration: underline;
+    }
+    .video-container {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      margin: 10px -10px;
+    }
+    .video-item {
+      width: calc(33.33% - 20px);
+      margin: 10px;
+      box-sizing: border-box;
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+    }
+    .video-item:hover .video-overlay {
+      opacity: 1;
+    }
+    .video-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.5);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    .video-title {
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    .video-episode {
+      font-size: 14px;
+    }
+    
+
+
+   
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <br><br><br><br><br><br><br><br><br>
+    <h1 id="classes">CLASSES</h1>
+    <div>
+      <select id="classDropdown" onchange="changeClass()">
+        <option value="class1"  class="line-break-option"><i>--FILTER BY--&#10;</i></option>
+        <option value="class2" class="line-break-option">Full Body &#10;</option>     
+        <option value="class3" class="line-break-option">Boxing &#10;</option>
+        <option value="class4" class="line-break-option">HIIT &#10;</option>
+        <option value="class5" id="class4Option" class="line-break-option">Leg Workout &#10;</option>
+        <option value="class6" class="line-break-option">Pilates &#10;</option>
+        <option value="class7" class="line-break-option">Stretching &#10;</option>
+        
+      </select>
+    </div>
+    
+    <br><br><br><br>
+
+    <div class="video-container">
+
+        <div class="video-item" onclick="redirectToPage('H1.html')">
+            <div class="video-overlay">
+              <p class="video-title">Leg Workout</p>
+              <p class="video-episode">Workout 01
+            </p>
+            </div>
+            <img src="img/L1.png" alt="Video 1" style="width: 240px; height: 210px;">
+          </div>
+          
+     
+        <div class="video-item" onclick="redirectToPage('H2.html')">
+        <div class="video-overlay">
+          <p class="video-title">Leg Workout</p>
+          <p class="video-episode">Workout 02</p>
+        </div>
+        <img src="img/L2.png" alt="Video 2" style="width: 230px;">
+      </div>
+
+     
+        <div class="video-item" onclick="redirectToPage('H3.html')">
+        <div class="video-overlay">
+          <p class="video-title">Leg Workout</p>
+          <p class="video-episode">Workout 03</p>
+        </div>
+        <img src="img/L3.png" alt="Video 3" style="width: 320px;">
+      </div>
+    </div>
+    
+   
+    </div>
+
+  </div>
+
+  <script>
+
+    function changeClass() {
+      var dropdown = document.getElementById("classDropdown");
+      var selectedValue = dropdown.options[dropdown.selectedIndex].value;
+      if (selectedValue === "class1") {
+        window.location.href = "page1.html"; // Redirect to page1.html for Class 1
+      } else if (selectedValue === "class2") {
+        window.location.href = "page2.html"; // Redirect to page2.html for Class 2
+      } else if (selectedValue === "class3") {
+        window.location.href = "page3.html"; // Redirect to page3.html for Class 3
+      } else if (selectedValue === "class4") {
+        window.location.href = "page4.html"; // Redirect to page4.html for Class 4
+      }  else if (selectedValue === "class5") {
+        window.location.href = "page5.html"; // Redirect to page4.html for Class 4
+      }else if (selectedValue === "class6") {
+        window.location.href = "page6.html"; // Redirect to page3.html for Class 3
+      } else if (selectedValue === "class7") {
+        window.location.href = "page7.html"; // Redirect to page4.html for Class 4
+      }
+    }
+    function redirectToPage(url) {
+    window.location.href = url;
+    }
+
+    var selectedOption = document.getElementById("class4Option");
+    selectedOption.setAttribute("selected", "selected");
+  </script>
+</body>
+</html>
