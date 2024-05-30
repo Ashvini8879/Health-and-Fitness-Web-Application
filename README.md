@@ -20,4 +20,26 @@ Login Page (login.php) :
 
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/941d3ea4-fd8e-418e-9414-b20c87ef6aad)
 
+Timer Module (timer/timer.html):
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/d6463613-a483-44d7-8b20-49cfd0af8f80)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/e1cb9af5-d80b-4fc1-9b42-7fe136316ac0)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/3066d411-3a45-47a3-ae24-9cb5243ee420)
+
+Water Tracker (water/watertracker.html):
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/1b775dc1-457a-4007-87c5-921a93bd598a)
+
+BMI calculator module (BMICal/bmi.html):
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/bf6ebb27-5a3f-4e31-9774-8f2cd2b51709)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/da3dc61e-1999-4b1d-b64c-bc7ac56b1cd5)
+
+Subscription Plan:
+
+1. Sign In
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/d648b987-54ef-43a3-97c9-44249f3a912c)
+
+2. Sign Up
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/4cc76978-8525-48bf-a564-6f76aa247155)
 
