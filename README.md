@@ -3,7 +3,7 @@ I have developed a Health and Fitness related application using Html, CSS , Java
 
 Home page (index.php):
 
-![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/e71b9fad-4034-4315-b650-38875ccdc3f0)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/b2bae061-ad7b-4245-856e-d3d1d989c66f)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/3c67c52c-6892-47b2-a4ad-c0f08fbe40e9)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/e8c7b97e-d97b-45be-a0e2-be869adc9148)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/c7f69359-f9c7-45c7-bbe9-c09f2ed3e37c)
