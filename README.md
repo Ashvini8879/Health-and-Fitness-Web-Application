@@ -43,7 +43,7 @@ Subscription Plan:
 2. Sign Up
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/4cc76978-8525-48bf-a564-6f76aa247155)
 
-3.Subscription Front Page(membership.html)
+3. Subscription Front Page(membership.html)
 
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/0090f15e-6d67-479c-b5ae-45bfe84f4c54)
 
@@ -60,5 +60,16 @@ Subscription Plan:
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/98b3bac3-81b2-42ba-8abc-abfd5da837e7)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/f78a2988-8eaa-441c-bc18-013b168a60cd)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/41ca9d8d-f44f-4174-9e47-19b5323b3b39)
+
+ii) Second Module (cook.io/index.html) :- 
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/7972e11f-0d23-43da-b418-f98a2cd3bb9e)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/297ccfe8-9b0b-4f0b-9f74-cd9fb38dab85)
+
+iii) Third Module (dietplan/ff.html) :-
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/915a9e5d-1143-4140-93fa-16562c084e7d)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/8e08f375-6310-4312-ac92-cce8eb839b8e)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/f22ac51b-5ee3-41c8-8fb5-3bc8ce38ac17)
 
 
