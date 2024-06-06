@@ -47,4 +47,18 @@ Subscription Plan:
 
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/0090f15e-6d67-479c-b5ae-45bfe84f4c54)
 
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/9dd97c08-5986-4c50-ab59-d8fe1db30f89)
+
+     i) First Module (session.htm)
+        
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/b05bcd51-f510-4b0c-a968-08028196a4ba)
+
+     Gym Exercises Videos Page:
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/b063b1e1-895e-42c0-8f65-5a6a762e024a)
+
+     Mindfulness Meditation Sessions Page:
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/98b3bac3-81b2-42ba-8abc-abfd5da837e7)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/f78a2988-8eaa-441c-bc18-013b168a60cd)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/41ca9d8d-f44f-4174-9e47-19b5323b3b39)
+
 
