@@ -72,4 +72,12 @@ iii) Third Module (dietplan/ff.html) :-
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/8e08f375-6310-4312-ac92-cce8eb839b8e)
 ![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/f22ac51b-5ee3-41c8-8fb5-3bc8ce38ac17)
 
+Shopping Page :
+
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/cea73f90-9ea2-4a8c-b324-a3aff4177094)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/9e71d53c-7683-495d-839d-5d518c505890)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/080e1964-1d5c-4c3a-b6ed-7a0a214617d7)
+![image](https://github.com/Ashvini8879/Health-and-Fitness-Web-Application/assets/170402064/be94e825-1174-4deb-9f5a-a61058cee302)
+
+
 
